@@ -1,3 +1,4 @@
+{if $warning }
 <input type="hidden" name="warning" id="warning" value="{$warning}">
 <div id="dialog-message">
 </div>
@@ -24,9 +25,4 @@ cj(document).ready( function() {
 });
 </script>
 {/literal}
-
-{if $imageURL }
-    <div>
-        {include file="CRM/Contact/Page/ContactImage.tpl"}
-    </div>
 {/if}
