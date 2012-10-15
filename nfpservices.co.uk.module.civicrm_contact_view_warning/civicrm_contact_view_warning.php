@@ -62,7 +62,7 @@ function civicrm_contact_view_warning_civicrm_install(){
               UNIQUE KEY `unique_entity_id` (`entity_id`)
               ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;";
 
-   CRM_Core_DAO::executeQuery($sql);
+   CRM_Core_DAO::executeQuery($query);
 }
 
 /*
